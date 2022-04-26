@@ -1,0 +1,15 @@
+{
+  "name": "devops-iterations-as-ne-counties",
+  "version": "1.0.0",
+  "description": "Create Azure DevOps Iterations named after all 93 Nebraska counties",
+  "scripts": {
+    "reset": "zx reset.mjs",
+    "create": "zx create.mjs"
+  },
+  "author": "Alex Koehler",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "zx": "^6.1.0"
+  }
+}
