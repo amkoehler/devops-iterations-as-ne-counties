@@ -16,7 +16,7 @@ Create 93 Sprint iterations in Azure DevOps based on Nebraska counties ordered b
 
 ## Getting Started
 
-This is a work in progress and does not currently support command line arguments. Changes to the start date and number of days in sprint can be made inline in the file `create.mjs`.
+This is a work in progress and does not currently support command line arguments. Changes to the start date and number of days in sprint can be made inline in the file `create.mjs`. The start date is hardcoded right now and likely won't be the date you want to use.
 
 Before running, you must be logged in to your devops organization via CLI with `az login`/`az devops login` with the appropriate permissions.
 
@@ -25,8 +25,6 @@ Before running, you must be logged in to your devops organization via CLI with `
 ```
 $ npm run create
 ```
-
-Clear out iterations.
 
 ### Reset Iterations
 
